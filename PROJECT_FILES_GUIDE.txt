@@ -1,0 +1,14 @@
+GROUNDWATER QUALITY ANALYSIS IN INDIA (2024)
+
+Folder guide:
+- data/raw: original CGWB extracted dataset
+- data/processed: cleaned dataset used by analysis and Dash app
+- notebooks: main Jupyter case-study notebook
+- dashboard/dash_app: Dash application (run from repository root with python dashboard/dash_app/app.py)
+- dashboard/tableau: packaged Tableau workbook and supporting summary CSV
+- visualizations/exports: supplied PNG and interactive HTML chart exports
+- reports: project report and presentation
+
+Temporary Jupyter checkpoints and Python __pycache__ files were intentionally excluded.
+The notebook input/output paths and Dash app dataset path were adjusted for this folder structure.
+The original Tableau workbook is a packaged .twbx and includes its Tableau extract.
